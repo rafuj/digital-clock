@@ -11,7 +11,10 @@ function showClock() {
 
     h == 0 ? h = 12 : h
     
+    h > 12 ? part = 'PM' : 'AM'
+    
     h > 12 ? h = h - 12 : h
+
 
     
 
